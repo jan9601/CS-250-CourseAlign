@@ -1,0 +1,106 @@
+@import "tailwindcss";
+@theme {
+  /*****************/
+  /* PRIMARY COLORS */
+  /*****************/
+
+  /* Logo, Titles, Sidebar Elements, Highlights, Primary buttons */
+  --color-brand-primary: #a6192e;
+
+  /* Sidebar Background, Dashboard Headers, Strong hover */
+  --color-brand-dark: #000000;
+
+  /* Light hover */
+  --color-brand-light: #d94c5c;
+
+  /*****************/
+  /* ACTION COLORS */
+  /*****************/
+
+  /* Blue button hover, Active State */
+  --color-action-hover: #7a1020;
+
+  /* Selected Elements, Active tabs, Visual Indicators, light highlights */
+  --color-action-light: #f5b5bd;
+
+  /*****************/
+  /* ACCENT COLORS */
+  /*****************/
+
+  /*****************/
+  /* STATUS COLORS */
+  /*****************/
+  /* Concluded Operation */
+  --color-success: #2e7d32;
+
+  /* Any alert */
+  --color-alert: #f9a825;
+
+  /* Errors*/
+  --color-error: #d32f2f;
+
+  /* Technical Information*/
+  --color-info: #0288d1;
+
+  /*************************/
+  /* USER INTERFACE COLORS */
+  /*************************/
+  --color-background: #f5f5f5;
+
+  /* Cards, Modals, Containers */
+  --color-surface: #fff;
+
+  /* Input borders, Divisors */
+  --color-border: #e0e0e0;
+
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #616161;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* *************** */
+/* LOADING SPINNER*/
+/* ****************/
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 1s linear infinite;
+}
+.loader::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  inset: 0px;
+  border-radius: 50%;
+  border: 5px solid var(--color-brand-primary);
+  animation: prixClipFix 2s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes prixClipFix {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}
