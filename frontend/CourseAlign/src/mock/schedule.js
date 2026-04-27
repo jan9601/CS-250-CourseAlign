@@ -1,0 +1,100 @@
+// src/mock/schedules.js
+
+export const mockSchedules = [
+  {
+    id: 1,
+    sections: [
+      {
+        courseCode: "CS 250",
+        courseName: "Computer Organization",
+        instructor: "Dr. Smith",
+        room: "GMCS 301",
+        days: ["MON", "WED"],
+        startTime: "09:00",
+        endTime: "10:15",
+      },
+      {
+        courseCode: "CS 310",
+        courseName: "Data Structures",
+        instructor: "Dr. Lee",
+        room: "GMCS 215",
+        days: ["TUE", "THU"],
+        startTime: "11:00",
+        endTime: "12:15",
+      },
+      {
+        courseCode: "MATH 141",
+        courseName: "Calculus II",
+        instructor: "Dr. Patel",
+        room: "GMCS 101",
+        days: ["MON", "WED", "FRI"],
+        startTime: "14:00",
+        endTime: "14:50",
+      },
+    ],
+  },
+  {
+    id: 2,
+    sections: [
+      {
+        courseCode: "CS 250",
+        courseName: "Computer Organization",
+        instructor: "Dr. Smith",
+        room: "GMCS 301",
+        days: ["MON", "WED"],
+        startTime: "11:00",
+        endTime: "12:15",
+      },
+      {
+        courseCode: "CS 310",
+        courseName: "Data Structures",
+        instructor: "Dr. Lee",
+        room: "GMCS 215",
+        days: ["TUE", "THU"],
+        startTime: "08:00",
+        endTime: "09:15",
+      },
+      {
+        courseCode: "MATH 141",
+        courseName: "Calculus II",
+        instructor: "Dr. Patel",
+        room: "GMCS 101",
+        days: ["TUE", "THU"],
+        startTime: "13:00",
+        endTime: "13:50",
+      },
+    ],
+  },
+  {
+    id: 3,
+    sections: [
+      {
+        courseCode: "CS 250",
+        courseName: "Computer Organization",
+        instructor: "Dr. Smith",
+        room: "GMCS 301",
+        days: ["TUE", "THU"],
+        startTime: "15:00",
+        endTime: "16:15",
+      },
+      {
+        courseCode: "CS 310",
+        courseName: "Data Structures",
+        instructor: "Dr. Lee",
+        room: "GMCS 215",
+        days: ["MON", "WED"],
+        startTime: "10:00",
+        endTime: "11:15",
+      },
+      {
+        courseCode: "MATH 141",
+        courseName: "Calculus II",
+        instructor: "Dr. Patel",
+        room: "GMCS 101",
+        days: ["MON", "WED", "FRI"],
+        startTime: "12:00",
+        endTime: "12:50",
+      },
+    ],
+  },
+];

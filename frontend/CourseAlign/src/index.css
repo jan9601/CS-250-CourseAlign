@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @theme {
   /*****************/
   /* PRIMARY COLORS */
@@ -8,7 +9,7 @@
   --color-brand-primary: #a6192e;
 
   /* Sidebar Background, Dashboard Headers, Strong hover */
-  --color-brand-dark: #000000;
+  --color-brand-dark: #30302c;
 
   /* Light hover */
   --color-brand-light: #d94c5c;
@@ -51,10 +52,12 @@
   --color-surface: #fff;
 
   /* Input borders, Divisors */
-  --color-border: #e0e0e0;
+  --color-border: #6b6b66;
 
-  --color-text-primary: #1a1a1a;
-  --color-text-secondary: #616161;
+  --color-text-primary-dark: #1a1a1a;
+  --color-text-secondary-dark: #616161;
+  --color-text-primary-light: #f9fafb;
+  --color-text-secondary-light: #9ca3af;
 }
 
 * {
