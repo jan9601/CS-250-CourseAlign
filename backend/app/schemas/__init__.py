@@ -1,9 +1,13 @@
 from .section import Section
-from .schedule import ScheduleBuildRequest, ScheduleResponse, ConflictDetail
+from .schedule import (
+    GenerateScheduleRequest,
+    ScheduleSectionResponse,
+    ScheduleOptionResponse,
+)
 
 __all__ = [
     "Section",
-    "ScheduleBuildRequest",
-    "ScheduleResponse",
-    "ConflictDetail",
+    "GenerateScheduleRequest",
+    "ScheduleSectionResponse",
+    "ScheduleOptionResponse",
 ]
