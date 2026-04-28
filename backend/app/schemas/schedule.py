@@ -1,28 +1,31 @@
 from pydantic import BaseModel, Field
-from typing import Literal
-from .section import Section
+from typing import Optional
 
 
-class ScheduleBuildRequest(BaseModel):
-    courses: list[str] = Field(
+class GenerateScheduleRequest(BaseModel):
+    classes: list[str] = Field(
         ...,
-        description="List of course codes to include, e.g. ['CS 250', 'MATH 245']",
+        description="List of course codes in compact API format, e.g. ['CS100', 'MATH150']",
         min_length=1,
     )
-    instruction_mode: Literal["in-person", "online", "any"] = "any"
-    exclude_days: list[Literal["MON", "TUE", "WED", "THU", "FRI"]] = Field(
-        default_factory=list,
-        description="Days the student cannot attend",
+    earliestStart: Optional[str] = Field(
+        default=None,
+        description='Optional earliest allowed start time in HH:MM',
+    )
+    latestEnd: Optional[str] = Field(
+        default=None,
+        description='Optional latest allowed end time in HH:MM',
     )
 
 
-class ConflictDetail(BaseModel):
-    section_a: Section
-    section_b: Section
-    reason: str
+class ScheduleSectionResponse(BaseModel):
+    course: str
+    section: str
+    days: list[str]
+    startTime: str
+    endTime: str
 
 
-class ScheduleResponse(BaseModel):
-    sections: list[Section]
-    conflicts: list[ConflictDetail] = Field(default_factory=list)
-    total_units: int
+class ScheduleOptionResponse(BaseModel):
+    scheduleId: int
+    sections: list[ScheduleSectionResponse]
