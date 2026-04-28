@@ -10,11 +10,11 @@ class GenerateScheduleRequest(BaseModel):
     )
     earliestStart: Optional[str] = Field(
         default=None,
-        description='Optional earliest allowed start time in HH:MM',
+        description="Optional earliest allowed start time in HH:MM",
     )
     latestEnd: Optional[str] = Field(
         default=None,
-        description='Optional latest allowed end time in HH:MM',
+        description="Optional latest allowed end time in HH:MM",
     )
 
 
