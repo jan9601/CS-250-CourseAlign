@@ -14,3 +14,8 @@ class Section(BaseModel):
     end_time: str              # "HH:MM" or "TBD"
     units: int
     instruction_mode: Literal["in-person", "online"] | str
+
+
+class CourseResponse(BaseModel):
+    courseId: str  # course_code with spaces removed, e.g. "CS250"
+    name: str

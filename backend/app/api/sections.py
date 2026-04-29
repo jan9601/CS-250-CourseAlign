@@ -1,13 +1,15 @@
-from fastapi import APIRouter, Query
-from ..schemas import Section
-from ..services.section_service import filter_sections
+from fastapi import APIRouter
+from ..schemas import CourseResponse
+from ..services.section_service import load_sections
 
 router = APIRouter(prefix="/courses", tags=["courses"])
 
 
-@router.get("/", response_model=list[Section])
-def list_sections(
-    course_code: str | None = Query(None, description="Filter by course code, e.g. 'CS 250'"),
-    instruction_mode: str | None = Query(None, description="'in-person' or 'online'"),
-):
-    return filter_sections(course_code=course_code, instruction_mode=instruction_mode)
+@router.get("/", response_model=list[CourseResponse])
+def list_courses():
+    seen: dict[str, CourseResponse] = {}
+    for s in load_sections():
+        course_id = s.course_code.replace(" ", "")
+        if course_id not in seen:
+            seen[course_id] = CourseResponse(courseId=course_id, name=s.course_title)
+    return list(seen.values())
