@@ -1,3 +1,5 @@
+import {Fragment} from "react";
+
 const days = ["MON", "TUE", "WED", "THU", "FRI"];
 const hours = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22];
 function CalendarGrid() {
@@ -10,14 +12,14 @@ function CalendarGrid() {
         </div>
       ))}
       {hours.map((hour) => (
-        <>
-          <div key={hour} className="text-xs text-right pr-2 pt-1 opacity-50">
+        <Fragment key={hour}>
+          <div className="text-xs text-right pr-2 pt-1 opacity-50">
             {hour > 12 ? `${hour - 12}PM` : `${hour}AM`}
           </div>
-          {days.map((day) => (
-            <div key={day} className="border border-border min-h-15" />
+          {days.map((day, index) => (
+            <div key={index} className="border border-border min-h-15" />
           ))}
-        </>
+        </Fragment>
       ))}
     </div>
   );

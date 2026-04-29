@@ -1,18 +1,46 @@
+import {useState} from "react";
 import {FiPlus, FiX} from "react-icons/fi";
 
 function CourseSelector() {
-  const isCourseAdded = true;
-  const coursesAddedList = ["CS 250", "CS 350", "MATH 250"];
+  let [input, setInput] = useState("");
+  const [courses, setCourses] = useState([]);
+  const [error, setError] = useState("");
+
+  function handleRemoveCourse(course) {
+    setCourses((courseList) =>
+      courseList.filter((courseName) => courseName !== course),
+    );
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+
+    const formatted = normalize(input);
+
+    if (!formatted) return;
+
+    if (courses.some((c) => normalize(c) === normalize(formatted))) {
+      setError("Course already added");
+      return;
+    }
+
+    setError("");
+    setCourses((courses) => [...courses, formatted]);
+    setInput("");
+  }
+
   return (
     <div className="mb-5">
-      <form className="p-2">
+      <form className="p-2" onSubmit={handleSubmit}>
         <p className="opacity-65 mb-2 text-[14px] font-semibold uppercase">
           Courses
         </p>
         <div className="relative">
           <input
             placeholder="Search for courses... (CS 250)"
-            className="h-9 pr-10 pl-2 placeholder:text-xs rounded-lg bg-surface placeholder:text-text-secondary-dark/70 w-full text-text-primary-dark"
+            className="h-9 pr-10 pl-2 placeholder:text-xs rounded-lg text-xs bg-surface placeholder:text-text-secondary-dark/70 w-full text-text-primary-dark"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
           />
           <button
             type="submit"
@@ -21,11 +49,11 @@ function CourseSelector() {
             <FiPlus size={20} />
           </button>
         </div>
+        {error && <p className="text-error text-xs mt-1 pl-1">{error}</p>}
       </form>
-      {isCourseAdded && (
+      {courses.length > 0 && (
         <div className="flex flex-wrap gap-2 m-2">
-          {" "}
-          {coursesAddedList.map((course) => (
+          {courses.map((course) => (
             <div
               key={course}
               className="flex bg-action-light-1 p-1 rounded-md gap-2 h-fit"
@@ -33,7 +61,10 @@ function CourseSelector() {
               <div className=" text-text-badge text-xs font-semibold">
                 {course}
               </div>
-              <button className="cursor-pointer text-action-light-7 hover:text-action-light-5">
+              <button
+                className="cursor-pointer text-action-light-7 hover:text-action-light-5"
+                onClick={() => handleRemoveCourse(course)}
+              >
                 <FiX size={15} />
               </button>
             </div>
@@ -45,3 +76,5 @@ function CourseSelector() {
 }
 
 export default CourseSelector;
+
+const normalize = (str) => str.trim().toUpperCase().replace(/\s+/g, "");

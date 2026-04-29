@@ -7,7 +7,7 @@ function CalendarHeader() {
         <FiCalendar size={18} className="text-brand-primary" />
         <span className="font-medium">Schedule 1</span>
       </div>
-      <span className="text-xs text-text-secondary-dark opacity-60">
+      <span className="text-xs text-text-secondary-light opacity-60">
         3 courses · No conflicts
       </span>
     </div>
