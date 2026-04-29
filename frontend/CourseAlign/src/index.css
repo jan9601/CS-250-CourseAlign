@@ -23,11 +23,12 @@
   --color-action-hover: #7a1020;
 
   /* Selected Elements, Active tabs, Visual Indicators, light highlights */
-  --color-action-light-3: #f5b5bd;
-  --color-action-light-2: #f7c4ca;
+  --color-action-light-0: #fbe1e5;
   --color-action-light-1: #f9d3d7;
-  --color-action-light-4: #dda3aa;
-  --color-action-light-5: #c49197;
+  --color-action-light-2: #f7c4ca;
+  --color-action-light-3: #f5b5bd;
+  --color-action-light-4: #c49197;
+  --color-action-light-5: #ac7f84;
   --color-action-light-6: #7b5b5f;
   --color-action-light-7: #62484c;
 
@@ -114,4 +115,26 @@
   100% {
     clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
   }
+}
+
+aside::-webkit-scrollbar {
+  width: 4px;
+}
+
+aside::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: var(--color-brand-dark-1);
+  border-radius: 999px;
+}
+
+aside::-webkit-scrollbar-thumb:hover {
+  background: var(--color-action-light-5);
+}
+
+aside {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-brand-dark-1) transparent;
 }

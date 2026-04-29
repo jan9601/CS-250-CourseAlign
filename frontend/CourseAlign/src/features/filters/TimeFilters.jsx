@@ -17,12 +17,14 @@ const timeOptions = [
 ];
 function TimeFilters() {
   return (
-    <>
-      <p className="opacity-65 my-2 text-[14px]">Time Preferences</p>
+    <div className="mt-3 mb-5">
+      <p className="opacity-65 mb-3 text-[14px] uppercase font-semibold">
+        Time Preferences
+      </p>
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-1">
-          <span className="opacity-50 text-[11px]">Earliest Start:</span>
-          <select className="bg-brand-dark-1 rounded-sm cursor-pointer">
+          <span className="opacity-50 text-sm">Earliest Start:</span>
+          <select className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs">
             {timeOptions.map((option) => (
               <option
                 className="text-text-primary-light"
@@ -35,8 +37,8 @@ function TimeFilters() {
           </select>
         </div>
         <div className="flex items-center gap-1">
-          <span className="opacity-50 text-[11px]">Latest end:</span>
-          <select className="bg-brand-dark-1 rounded-sm cursor-pointer">
+          <span className="opacity-50 text-sm">Latest end:</span>
+          <select className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs">
             {timeOptions.map((option) => (
               <option
                 className="text-text-primary-light"
@@ -49,8 +51,7 @@ function TimeFilters() {
           </select>
         </div>
       </div>
-      <div className="border-border border-b mt-4" />
-    </>
+    </div>
   );
 }
 
