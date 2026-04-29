@@ -22,7 +22,13 @@
   --color-action-hover: #7a1020;
 
   /* Selected Elements, Active tabs, Visual Indicators, light highlights */
-  --color-action-light: #f5b5bd;
+  --color-action-light-3: #f5b5bd;
+  --color-action-light-2: #f7c4ca;
+  --color-action-light-1: #f9d3d7;
+  --color-action-light-4: #dda3aa;
+  --color-action-light-5: #c49197;
+  --color-action-light-6: #7b5b5f;
+  --color-action-light-7: #62484c;
 
   /*****************/
   /* ACCENT COLORS */
@@ -58,6 +64,7 @@
   --color-text-secondary-dark: #616161;
   --color-text-primary-light: #f9fafb;
   --color-text-secondary-light: #9ca3af;
+  --color-text-badge: #662f33;
 }
 
 * {
