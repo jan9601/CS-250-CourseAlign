@@ -1,4 +1,4 @@
-import {FiPlus} from "react-icons/fi";
+import {FiPlus, FiX} from "react-icons/fi";
 
 function CourseSelector() {
   const isCourseAdded = true;
@@ -6,7 +6,7 @@ function CourseSelector() {
   return (
     <>
       <form className="p-2">
-        <p className="opacity-65 my-2">Courses</p>
+        <p className="opacity-65 my-2 text-[14px]">Courses</p>
         <div className="relative">
           <input
             placeholder="Search for courses... (CS 250)"
@@ -30,7 +30,7 @@ function CourseSelector() {
             >
               <div className=" text-text-badge">{course}</div>
               <button className="cursor-pointer text-action-light-7 hover:text-action-light-5">
-                &#10005;
+                <FiX size={15} />
               </button>
             </div>
           ))}

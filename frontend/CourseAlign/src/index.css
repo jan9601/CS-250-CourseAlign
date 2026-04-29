@@ -9,7 +9,8 @@
   --color-brand-primary: #a6192e;
 
   /* Sidebar Background, Dashboard Headers, Strong hover */
-  --color-brand-dark: #30302c;
+  --color-brand-dark-3: #30302c;
+  --color-brand-dark-1: #595957;
 
   /* Light hover */
   --color-brand-light: #d94c5c;
