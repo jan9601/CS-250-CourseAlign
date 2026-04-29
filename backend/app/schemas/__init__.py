@@ -1,10 +1,9 @@
-from .section import Section, CourseResponse
-from .schedule import ScheduleBuildRequest, SectionOut, ScheduleOut
+from .section import Section
+from .schedule import ScheduleBuildRequest, ScheduleResponse, ConflictDetail
 
 __all__ = [
     "Section",
-    "CourseResponse",
     "ScheduleBuildRequest",
-    "SectionOut",
-    "ScheduleOut",
+    "ScheduleResponse",
+    "ConflictDetail",
 ]
