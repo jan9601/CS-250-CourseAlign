@@ -1,5 +1,3 @@
-import {useState} from "react";
-
 const timeOptions = [
   {label: "8:00 AM", value: "08:00"},
   {label: "9:00 AM", value: "09:00"},
@@ -17,10 +15,12 @@ const timeOptions = [
   {label: "9:00 PM", value: "21:00"},
   {label: "10:00 PM", value: "22:00"},
 ];
-function TimeFilters() {
-  const [earliestStart, setEarliestStart] = useState("08:00");
-  const [latestEnd, setLatestEnd] = useState("22:00");
-
+function TimeFilters({
+  earliestStart,
+  setEarliestStart,
+  latestEnd,
+  setLatestEnd,
+}) {
   return (
     <div className="mt-3 mb-5">
       <p className="opacity-65 mb-3 text-[14px] uppercase font-semibold">
