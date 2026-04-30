@@ -1,3 +1,5 @@
+import {useState} from "react";
+
 const timeOptions = [
   {label: "8:00 AM", value: "08:00"},
   {label: "9:00 AM", value: "09:00"},
@@ -16,6 +18,9 @@ const timeOptions = [
   {label: "10:00 PM", value: "22:00"},
 ];
 function TimeFilters() {
+  const [earliestStart, setEarliestStart] = useState("08:00");
+  const [latestEnd, setLatestEnd] = useState("22:00");
+
   return (
     <div className="mt-3 mb-5">
       <p className="opacity-65 mb-3 text-[14px] uppercase font-semibold">
@@ -24,7 +29,11 @@ function TimeFilters() {
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-1">
           <span className="opacity-50 text-sm">Earliest Start:</span>
-          <select className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs">
+          <select
+            className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs"
+            value={earliestStart}
+            onChange={(e) => setEarliestStart(e.target.value)}
+          >
             {timeOptions.map((option) => (
               <option
                 className="text-text-primary-light"
@@ -38,7 +47,11 @@ function TimeFilters() {
         </div>
         <div className="flex items-center gap-1">
           <span className="opacity-50 text-sm">Latest end:</span>
-          <select className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs">
+          <select
+            className="bg-brand-dark-1 rounded-sm cursor-pointer text-xs"
+            value={latestEnd}
+            onChange={(e) => setLatestEnd(e.target.value)}
+          >
             {timeOptions.map((option) => (
               <option
                 className="text-text-primary-light"
