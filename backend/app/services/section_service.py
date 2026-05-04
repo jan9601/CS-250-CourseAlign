@@ -5,7 +5,18 @@ from ..schemas import Section
 
 _DATA_PATH = Path(__file__).parent.parent.parent / "data" / "raw" / "testData.csv"
 
-_DAY_INDEX = {"MON": 0, "TUE": 1, "WED": 2, "THU": 3, "FRI": 4}
+# CSV day positions → contract day strings
+_DAY_NAMES = ["M", "T", "W", "Th", "F"]
+
+
+def parse_days(days_str: str) -> list[str]:
+    """Convert CSV day string (e.g. 'c-c-c') to contract format (e.g. ['M','W','F'])."""
+    return [_DAY_NAMES[i] for i, ch in enumerate(days_str) if ch == "c"]
+
+
+def parse_time(t: str) -> str:
+    """Convert 'TBD' to '00:00'; pass valid HH:MM through unchanged."""
+    return "00:00" if t == "TBD" else t
 
 
 @lru_cache(maxsize=1)
@@ -31,18 +42,20 @@ def load_sections() -> list[Section]:
 
 
 def filter_sections(
-    course_code: str | None = None,
+    course_id: str | None = None,        # contract format: "CS250" (no space)
     instruction_mode: str | None = None,
-    exclude_days: list[str] | None = None,
+    earliest_start: str | None = None,   # "HH:MM" — exclude sections starting before this
+    latest_end: str | None = None,       # "HH:MM" — exclude sections ending after this
 ) -> list[Section]:
     results = load_sections()
-    if course_code:
-        results = [s for s in results if s.course_code.upper() == course_code.upper()]
+    if course_id:
+        results = [s for s in results if s.course_code.replace(" ", "").upper() == course_id.upper()]
     if instruction_mode and instruction_mode != "any":
         results = [s for s in results if s.instruction_mode == instruction_mode]
-    if exclude_days:
-        indices = {_DAY_INDEX[d] for d in exclude_days if d in _DAY_INDEX}
-        results = [s for s in results if not any(s.days[i] == "c" for i in indices if i < len(s.days))]
+    if earliest_start:
+        results = [s for s in results if s.start_time == "TBD" or s.start_time >= earliest_start]
+    if latest_end:
+        results = [s for s in results if s.end_time == "TBD" or s.end_time <= latest_end]
     return results
 
 
@@ -55,6 +68,4 @@ def sections_conflict(a: Section, b: Section) -> bool:
         return False
     if a.start_time == "TBD" or b.start_time == "TBD":
         return False
-    a_start, a_end = a.start_time, a.end_time
-    b_start, b_end = b.start_time, b.end_time
-    return not (a_end <= b_start or b_end <= a_start)
+    return not (a.end_time <= b.start_time or b.end_time <= a.start_time)

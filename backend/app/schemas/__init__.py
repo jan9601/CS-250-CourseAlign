@@ -1,13 +1,10 @@
-from .section import Section
-from .schedule import (
-    GenerateScheduleRequest,
-    ScheduleSectionResponse,
-    ScheduleOptionResponse,
-)
+from .section import Section, CourseResponse
+from .schedule import ScheduleBuildRequest, SectionOut, ScheduleOut
 
 __all__ = [
     "Section",
-    "GenerateScheduleRequest",
-    "ScheduleSectionResponse",
-    "ScheduleOptionResponse",
+    "CourseResponse",
+    "ScheduleBuildRequest",
+    "SectionOut",
+    "ScheduleOut",
 ]
