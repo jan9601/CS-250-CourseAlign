@@ -2,30 +2,20 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 
-class GenerateScheduleRequest(BaseModel):
-    classes: list[str] = Field(
-        ...,
-        description="List of course codes in compact API format, e.g. ['CS100', 'MATH150']",
-        min_length=1,
-    )
-    earliestStart: Optional[str] = Field(
-        default=None,
-        description="Optional earliest allowed start time in HH:MM",
-    )
-    latestEnd: Optional[str] = Field(
-        default=None,
-        description="Optional latest allowed end time in HH:MM",
-    )
+class ScheduleBuildRequest(BaseModel):
+    classes: list[str] = Field(..., min_length=1, description="Course IDs, e.g. ['CS250', 'MATH150']")
+    earliestStart: Optional[str] = Field(None, description="HH:MM — exclude sections starting before this")
+    latestEnd: Optional[str] = Field(None, description="HH:MM — exclude sections ending after this")
 
 
-class ScheduleSectionResponse(BaseModel):
-    course: str
-    section: str
-    days: list[str]
-    startTime: str
-    endTime: str
+class SectionOut(BaseModel):
+    course: str        # courseId format, e.g. "CS250"
+    section: str       # section ID string, e.g. "01"
+    days: list[str]    # e.g. ["M", "W", "F"]
+    startTime: str     # "HH:MM"
+    endTime: str       # "HH:MM"
 
 
-class ScheduleOptionResponse(BaseModel):
+class ScheduleOut(BaseModel):
     scheduleId: int
-    sections: list[ScheduleSectionResponse]
+    sections: list[SectionOut]
