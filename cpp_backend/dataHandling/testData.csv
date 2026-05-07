@@ -1,0 +1,212 @@
+semester,course_code,course_title,section_id,component,instructor,days,start_time,end_time,units,instruction_mode
+Spring 2026,CS 100,Computer Science Principles,6111,Discussion,Patricia Kraft,-c-c-,11:00,12:15,3,in-person
+Spring 2026,CS 150,Introductory Computer Programming,6171,Lecture,Lokeshwari Anamalamudi,-c-c-,09:30,18:45,3,in-person
+Spring 2026,CS 150,Introductory Computer Programming,6173,Lecture,Rylie Foster,c-c--,14:00,15:15,3,in-person
+Spring 2026,CS 150L,Introductory Computer Programming Laboratory,6174,Lab,Aron Chen,c----,17:30,18:45,1,in-person
+Spring 2026,CS 150L,Introductory Computer Programming Laboratory,6175,Lab,Shivani Mishra,-c---,08:00,09:15,1,in-person
+Spring 2026,CS 150L,Introductory Computer Programming Laboratory,6176,Lab,Shivani Mishra,--c--,17:30,18:45,1,in-person
+Spring 2026,CS 150L,Introductory Computer Programming Laboratory,6178,Lab,Aron Chen,---c-,17:30,18:45,1,in-person
+Spring 2026,CS 160,Intermediate Computer Programming,6180,Lecture,Patricia Kraft,c-c--,14:00,15:15,3,in-person
+Spring 2026,CS 160,Intermediate Computer Programming,6181,Lecture,Patricia Kraft,c-c--,16:00,17:15,3,in-person
+Spring 2026,CS 160,Intermediate Computer Programming,6798,Lecture,Siddhi Amilkanthwar,-c-c-,08:00,09:15,3,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,6183,Lab,Wenyu Peng,c----,17:30,18:45,1,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,6184,Lab,Wenyu Peng,--c--,17:30,18:45,1,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,6185,Lab,Wenyu Peng,-c---,08:00,09:15,1,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,6799,Lab,Samvedhya Bendapudi,-c---,09:30,10:45,1,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,9955,Lab,Yahui Jiang,c----,11:00,12:15,1,in-person
+Spring 2026,CS 160L,Intermediate Computer Programming Laboratory,9956,Lab,Yahui Jiang,--c--,11:00,12:15,1,in-person
+Spring 2026,CS 200,Introduction to Data Science and Python,7586,Lecture,Hajar Homayouni,c-c--,14:00,15:15,4,in-person
+Spring 2026,CS 200,Introduction to Data Science and Python,7587,Tech Acts,Hajar Homayouni,---c-,08:30,10:40,4,in-person
+Spring 2026,CS 210,Data Structures,6520,Lecture,Patricia Kraft,-c-c-,08:00,09:15,3,in-person
+Spring 2026,CS 210,Data Structures,8074,Lecture,Manju Muralidharan Priya,-c-c-,19:00,20:15,3,in-person
+Spring 2026,CS 240,Computer Organization,6525,Lecture,Umut Can Cabuk,-c-c-,14:00,15:15,3,in-person
+Spring 2026,CS 240,Computer Organization,6526,Lecture,Dominic Dabish,c-c--,17:30,18:45,3,in-person
+Spring 2026,CS 250,Introduction to Software Systems,11642,Lecture,Rakshitha Arun Kumar,c-c-c,11:00,11:50,3,in-person
+Spring 2026,CS 250,Introduction to Software Systems,11643,Lecture,Rakshitha Arun Kumar,c-c-c,12:00,12:50,3,in-person
+Spring 2026,CS 370,Computer Architecture,6518,Discussion,Tao Xie,c-c--,14:00,15:15,3,in-person
+Spring 2026,CS 370,Computer Architecture,6519,Discussion,Tao Xie,c-c--,16:00,17:15,3,in-person
+Spring 2026,CS 370,Computer Architecture,11800,Discussion,Umut Can Cabuk,c-c--,12:00,13:15,3,online
+Spring 2026,CS 420,Advanced Programming Languages,6522,Discussion,Mary Pourebadi,-c-c-,11:00,12:15,3,in-person
+Spring 2026,CS 420,Advanced Programming Languages,9940,Discussion,Shams Al Ajrawi,c-c-c,12:00,12:50,3,online
+Spring 2026,CS 450,Introduction to Artificial Intelligence,6817,Lecture,Xuanji Yu,c-c--,19:00,20:15,3,in-person
+Spring 2026,CS 450,Introduction to Artificial Intelligence,11529,Lecture,Xiaobai Liu,-c-c-,15:30,16:45,3,in-person
+Spring 2026,CS 460,Algorithms,6527,Lecture,Hyunjong Choi,-c-c-,14:00,15:15,3,in-person
+Spring 2026,CS 460,Algorithms,6528,Lecture,Manju Muralidharan Priya,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 460,Algorithms,9111,Lecture,Manju Muralidharan Priya,-c-c-,12:30,13:45,3,in-person
+Spring 2026,CS 460,Algorithms,10146,Lecture,Hyunjong Choi,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 470,UNIX System Administration,7411,Discussion,Peter Bartoli,c----,19:00,21:40,3,in-person
+Spring 2026,CS 480,Operating Systems,6523,Lecture,Ben Shen,-c-c-,16:00,17:15,3,in-person
+Spring 2026,CS 480,Operating Systems,6524,Lecture,Ben Shen,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 496,Cloud Computing,11929,Lecture,Ben Shen,-c-c-,19:00,20:15,3,in-person
+Spring 2026,CS 496,Senior Capstone Project 2,11939,Tech Acts,Bryan Donyanavard,c-c--,19:00,20:15,3,in-person
+Spring 2026,CS 514,Database Theory and Implementation,6243,Discussion,Jianshu Liu,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 514,Database Theory and Implementation,8944,Discussion,James Gappy,-c-c-,19:00,20:15,3,in-person
+Spring 2026,CS 530,Systems Programming,8888,Discussion,Guy Leonard,-c-c-,19:00,20:45,3,in-person
+Spring 2026,CS 549,Machine Learning,6246,Lecture,Mary Pourebadi,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 549,Machine Learning,7410,Lecture,Irfan Khan,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 556,Robotics,9938,Discussion,Mary Pourebadi,-c-c-,16:00,17:15,3,in-person
+Spring 2026,CS 561,Deep Learning for Natural Language Processing,12281,Lecture,Greg Placencia,c-c--,19:00,20:15,3,online
+Spring 2026,CS 574,Computer Security,9845,Discussion,Yifan Zhang,-c-c-,17:30,18:45,3,in-person
+Spring 2026,CS 574,Computer Security,12081,Discussion,Peter Bartoli,--c--,19:00,21:40,3,in-person
+Spring 2026,CS 574,Computer Security,11288,Discussion,Gus Hanna,-----,TBD,TBD,3,online
+Spring 2026,CS 576,Computer Networks and Distributed Systems,8822,Discussion,Wei Wang,c-c--,14:00,15:15,3,in-person
+Spring 2026,CS 577,Principles and Techniques of Data Science,9044,Discussion,Alireza Abdoli,-c---,19:00,21:40,3,online
+Spring 2026,CS 577,Principles and Techniques of Data Science,11654,Discussion,Hajar Homayouni,c-c-c,13:00,13:50,3,in-person
+Spring 2026,CS 577,Principles and Techniques of Data Science,12358,Discussion,Manju Muralidharan Priya,-c-c-,14:00,15:15,3,in-person
+Spring 2026,CS 578,Wireless Networks,7739,Lecture,Rakibul Hasan,c-c--,17:30,18:45,3,in-person
+Spring 2026,CS 581,Computational Linguistics,6247,Discussion,Mark Gawron,-c-c-,11:00,12:15,3,in-person
+Spring 2026,CS 582,Introduction to Speech Processing,7685,Discussion,Courtney Konopka,c-c--,14:00,15:15,3,online
+Spring 2026,MATH 110,Mathematics for Life,5256,Lecture,Corey Manchester,-c-c-,15:00,16:45,3,in-person
+Spring 2026,Math 110X,Mathematics for Life Support,5257,Lab,Nicholas Slinglend,-c-c-,12:30,13:45,1,in-person
+Spring 2026,MATH 118,Topics in Mathematics,5342,Discussion,Thamira Jarjees,c-c-c,13:00,13:50,3,in-person
+Spring 2026,MATH 120,Calculus for Business Analysis,5344,Discussion,Renee Thompson,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MATH 120,Calculus for Business Analysis,5345,Discussion,Sharon Giles,-c-c-,12:30,13:45,3,in-person
+Spring 2026,MATH 120,Calculus for Business Analysis,5346,Discussion,Corey Manchester,c-c--,17:30,18:45,3,in-person
+Spring 2026,MATH 120,Calculus for Business Analysis,7800,Discussion,Corey Manchester,c-c--,17:30,18:45,3,in-person
+Spring 2026,MATH 124,Calculus for the Life Sciences,5306,Discussion,Rebecca Ortega,c-c-c,08:00,08:50,3,in-person
+Spring 2026,MATH 124,Calculus for the Life Sciences,5311,Lab,Megan Fredrickson,-c-c-,08:00,09:15,1,in-person
+Spring 2026,MATH 124,Calculus for the Life Sciences,5309,Lab,Meg Bucich,-c-c-,09:30,10:45,1,in-person
+Spring 2026,MATH 124,Calculus for the Life Sciences,5310,Lab,Sergio Caldera,-c-c-,15:30,16:45,1,in-person
+Spring 2026,MATH 140,College Algebra,6449,Discussion,Shahir Sikder,c-c-c,11:00,11:50,3,in-person
+Spring 2026,MATH 140,College Algebra,6450,Discussion,Shahir Sikder,c-c-c,12:00,12:50,3,in-person
+Spring 2026,MATH 140,College Algebra,6451,Discussion,Shahir Sikder,c-c-c,13:00,13:50,3,in-person
+Spring 2026,MATH 140,College Algebra,10540,Discussion,Christopher Ryan,-c---,09:00,11:40,3,in-person
+Spring 2026,MATH 140X,College Algebra Support,5936,Lab,Ty Bui,c-c-c,10:00,10:50,1,in-person
+Spring 2026,MATH 141,Precalculus,6116,Lecture,Hiren Maharaj,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MATH 141,Precalculus,11382,Discussion,Karin Funaki,--c--,10:00,10:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11383,Discussion,Landon Thompson-Tschimperle,--c--,13:00,13:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11384,Discussion,Mariela Ponce,--c--,15:00,15:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11387,Discussion,Karin Funaki,--c--,09:00,09:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11385,Discussion,Landon Thompson-Tschimperle,--c--,11:00,11:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11389,Discussion,Mariela Ponce,----c,10:00,10:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11390,Discussion,Landon Thompson-Tschimperle,----c,12:00,12:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11391,Discussion,Sergio Caldera,--c--,11:00,11:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11393,Discussion,Karin Funaki,--c--,11:00,11:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11392,Discussion,Megan Fredrickson,--c--,12:00,12:50,0,in-person
+Spring 2026,MATH 141,Precalculus,11394,Discussion,Mariela Ponce,----c,12:00,12:50,0,in-person
+Spring 2026,MATH 141S,Precalculus Support,6770,Lab,Janet Azmoun,-----,TBD,TBD,1,in-person
+Spring 2026,MATH 150,Calculus I,5319,Discussion,Colin McGrane,c-c-c,09:00,09:50,4,in-person
+Spring 2026,MATH 150,Calculus I,5329,Discussion,Colin McGrane,c-c-c,10:00,10:50,4,in-person
+Spring 2026,MATH 150,Calculus I,5323,Activity,Helena Ellis Do Amaral,c-c--,15:30,16:20,0,in-person
+Spring 2026,MATH 150,Calculus I,5330,Activity,Siena Matsuda,c-c--,13:00,13:50,0,in-person
+Spring 2026,MATH 150S,Calculus I Support,6771,Lab,Janet Azmoun,-----,TBD,TBD,1,in-person
+Spring 2026,MATH 151,Calculus II,4913,Discussion,Shahir Sikder,c-c-c,09:00,09:50,4,in-person
+Spring 2026,MATH 151,Calculus II,4917,Discussion,Nicholas Slinglend,-c-c-,14:00,15:15,4,in-person
+Spring 2026,MATH 151,Calculus II,4922,Discussion,Shahir Sikder,c-c-c,12:00,12:50,4,in-person
+Spring 2026,MATH 151,Calculus II,4914,Activity,Bhargav Uday Shivbhakta,c-c--,10:00,10:50,0,in-person
+Spring 2026,MATH 151,Calculus II,4920,Activity,Juan Carrillo Rodriguez,c-c--,08:00,08:50,0,in-person
+Spring 2026,MATH 151,Calculus II,4923,Activity,Amelia Martinson,-c-c-,11:00,11:50,0,in-person
+Spring 2026,MATH 151S,Calculus II Support,9767,Tech Acts,Janet Azmoun,-----,TBD,TBD,1,in-person
+Spring 2026,MATH 210,Number Systems in Elementary Mathematics,5348,Discussion,Ramona Lopez,c-c-c,11:00,11:50,3,in-person
+Spring 2026,MATH 210,Number Systems in Elementary Mathematics,5349,Discussion,Naneh Apkarian,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MATH 210,Number Systems in Elementary Mathematics,10543,Discussion,Humberto Pena,-c---,09:00,11:40,3,in-person
+Spring 2026,MATH 210X,Number Systems in Elementary Mathematics Support,5258,Lab,Hayley Milbourne,-----,TBD,TBD,1,online
+Spring 2026,MATH 210X,Number Systems in Elementary Mathematics Support,10544,Lab,Humberto Pena,-c---,12:55,15:35,1,in-person
+Spring 2026,MATH 211,Geometry in Elementary Mathematics,5350,Discussion,Shani Halperin,-c-c-,11:00,12:15,3,in-person
+Spring 2026,MATH 211,Geometry in Elementary Mathematics,5351,Discussion,Mariah Moschetti,-c-c-,12:30,13:45,3,in-person
+Spring 2026,MATH 211,Geometry in Elementary Mathematics,10436,Discussion,Humberto Pena,---c-,12:55,15:35,3,in-person
+Spring 2026,MATH 237,Elementary Differential Equations,6348,Discussion,Nguyen-Truc-Dao Nguyen,c-c-c,13:00,13:50,3,in-person
+Spring 2026,MATH 245,Discrete Mathematics,4994,Discussion,Christopher O'neill,c-c-c,10:00,10:50,3,in-person
+Spring 2026,MATH 252,Calculus III,9751,Lecture,Jerome Gilles,c-c-c,09:00,09:50,4,in-person
+Spring 2026,MATH 252,Calculus III,9753,Discussion,Sebastian Griego,c----,11:00,11:50,0,in-person
+Spring 2026,MATH 252,Calculus III,9762,Lecture,Antonio Palacios,c-c--,15:00,16:45,4,in-person
+Spring 2026,MATH 252,Calculus III,9764,Discussion,Laura Hu,c----,12:00,12:50,0,in-person
+Spring 2026,MATH 252,Calculus III,12233,Lecture,Brian Shay,-----,TBD,TBD,4,in-person
+Spring 2026,MATH 252,Calculus III,12234,Discussion,Brian Shay,-----,TBD,TBD,0,in-person
+Spring 2026,MATH 254,Introduction to Linear Algebra,4995,Discussion,Naveen Vaidya,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MATH 254,Introduction to Linear Algebra,12230,Discussion,Abigail Brown-McLellan,-----,TBD,TBD,3,in-person
+Spring 2026,MATH 254,Introduction to Linear Algebra,12231,Discussion,Brian Shay,-----,TBD,TBD,3,in-person
+Spring 2026,MATH 302,Transition to Higher Mathematics,4510,Discussion,Mariah Moschetti,c-c--,14:00,15:15,3,in-person
+Spring 2026,MATH 303,History of Mathematics,1364,Discussion,Thamira Jarjees,c-c-c,11:00,11:50,3,in-person
+Spring 2026,MATH 312,Topics from Elementary Mathematics: Statistics and Probability,5356,Discussion,Shani Halperin,-c-c-,14:00,15:15,3,in-person
+Spring 2026,MATH 312,Topics from Elementary Mathematics: Statistics and Probability,10437,Discussion,Christopher Ryan,-c---,12:55,15:35,3,in-person
+Spring 2026,MATH 313,Topics in Elementary Mathematics: Algebra of Change,4512,Discussion,Gerardo Cruz,c-c-c,10:00,10:50,3,in-person
+Spring 2026,MATH 313,Topics in Elementary Mathematics: Algebra of Change,8819,Discussion,Gerardo Cruz,c-c-c,09:00,09:50,3,in-person
+Spring 2026,MATH 313,Topics in Elementary Mathematics: Algebra of Change,10438,Discussion,Huan Qin,---c-,16:10,18:50,3,in-person
+Spring 2026,MATH 320,Abstract Algebra,5216,Discussion,Vadim Ponomarenko,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MATH 330,Advanced Calculus I,5937,Discussion,Nguyen-Truc-Dao Nguyen,c-c--,16:00,17:15,3,in-person
+Spring 2026,MATH 330,Advanced Calculus I,10439,Discussion,Tingting Tang,-c---,09:00,11:40,3,in-person
+Spring 2026,MATH 340,Programming in Mathematics,8964,Lecture,Bo-Wen Shen,c-c--,09:00,09:50,3,in-person
+Spring 2026,MATH 340,Programming in Mathematics,8965,Tech Acts,Jordan Shands-Sparks,----c,09:00,10:40,0,in-person
+Spring 2026,MATH 340,Programming in Mathematics,8966,Tech Acts,Jordan Shands-Sparks,----c,12:00,13:40,0,in-person
+Spring 2026,MATH 341,Mathematics Software Workshop,6532,Lecture,Will Stuart,c----,17:30,18:20,1,in-person
+Spring 2026,MATH 342A,Methods of Applied Mathematics I,8845,Discussion,Uduak George,c-c-c,09:00,09:50,3,in-person
+Spring 2026,MATH 342B,Methods of Applied Mathematics II,2044,Discussion,Steven Leduc,c-c-c,10:00,10:50,3,in-person
+Spring 2026,MATH 413,Mathematics for the Middle Grades,4513,Discussion,David Weber,-c-c-,17:30,18:45,3,in-person
+Spring 2026,MATH 413,Mathematics for the Middle Grades,10440,Discussion,Christopher Ryan,---c-,09:00,11:40,3,in-person
+Spring 2026,MATH 414,Mathematics Curriculum and Instruction,8820,Discussion,Victoria Delaney,-c-c-,14:00,15:15,3,in-person
+Spring 2026,MATH 414,Mathematics Curriculum and Instruction,10441,Discussion,Jill Nelipovich,-c---,12:55,15:35,3,in-person
+Spring 2026,A E 123,The Aerospace Engineer,9422,Discussion,Chris Root,c----,09:00,09:50,1,in-person
+Spring 2026,A E 200,Statics,5176,Discussion,Behrooz Amini,-c-c-,17:30,18:45,3,in-person
+Spring 2026,A E 200,Statics,10063,Discussion,Luciano Demasi,-c-c-,08:00,09:15,3,in-person
+Spring 2026,A E 220,Dynamics,5177,Discussion,Margherita Capriotti,-c-c-,08:00,09:15,3,in-person
+Spring 2026,A E 260,Programming and Numerical Methods in Aerospace,6150,Discussion,Jun Chen,-c-c-,17:30,18:45,3,in-person
+Spring 2026,A E 280,Methods of Analysis,4389,Discussion,Diana Lee,-c-c-,11:00,12:15,3,in-person
+Spring 2026,A E 280,Methods of Analysis,11996,Discussion,Jun Chen,-----,TBD,TBD,3,online
+Spring 2026,AFRAS 101,Introduction to Africana Studies: Social and Behavioral Sciences,11373,Discussion,Daniela Gomes,c-c--,09:00,09:50,3,in-person
+Spring 2026,AFRAS 101,Introduction to Africana Studies: Social and Behavioral Sciences,11908,Discussion,Daniela Gomes,-----,TBD,TBD,3,online
+Spring 2026,AFRAS 120,Composition,8861,Discussion,Ebony Tyree,---c-,16:00,18:40,3,in-person
+Spring 2026,AFRAS 140,Oral Communication,10986,Discussion,Delores Fisher,-c-c-,09:30,10:45,3,in-person
+Spring 2026,AFRAS 140,Oral Communication,10991,Discussion,Antwanisha Alameen-Shavers,-----,TBD,TBD,3,online
+Spring 2026,AFRAS 140,Oral Communication,10998,Discussion,Antwanisha Alameen-Shavers,-----,TBD,TBD,3,online
+Spring 2026,AFRAS 140,Oral Communication,10999,Discussion,Antwanisha Alameen-Shavers,-----,TBD,TBD,3,online
+Spring 2026,AFRAS 140,Oral Communication,11910,Discussion,Esther Anthony-Thomas,-c-c-,09:30,10:45,3,in-person
+Spring 2026,AFRAS 140,Oral Communication,11963,Discussion,Kaia Brown,c----,16:00,18:40,3,in-person
+Spring 2026,AFRAS 170A,Afro-American History to 1865,8832,Lecture,Terry Sivers,c-c-c,11:00,11:50,3,in-person
+Spring 2026,AFRAS 170A,Afro-American History to 1865,10996,Lecture,Marcus Taylor,---c-,16:00,18:40,3,in-person
+Spring 2026,AFRAS 170A,Afro-American History to 1865,8833,Lecture,Brother Shabazz,c-c--,11:00,11:50,3,in-person
+Spring 2026,AFRAS 170A,Afro-American History to 1865,8834,Lecture,Mychal Odom,-c---,16:00,18:40,3,in-person
+Spring 2026,AFRAS 170B,Afro-American History from 1865 to Present,6300,Discussion,Anthony Merritt,c-c--,10:00,10:50,3,in-person
+Spring 2026,AFRAS 170B,Afro-American History from 1865 to Present,6301,Discussion,Charmane Perry,c-c--,13:00,13:50,3,in-person
+Spring 2026,AFRAS 170B,Afro-American History from 1865 to Present,6302,Discussion,Marcus Taylor,c----,16:00,18:40,3,in-person
+Spring 2026,AFRAS 170B,Afro-American History from 1865 to Present,8562,Discussion,Brianna Simmons,--c--,16:00,18:40,3,in-person
+Spring 2026,AFRAS 200,Intermediate Expository Writing and Research Fundamentals,5474,Discussion,Paula Johnson,c-c--,14:00,15:15,3,in-person
+Spring 2026,AFRAS 240,Africana Intellectual Thought,5666,Lecture,Sureshi Jayawardene,c-c--,11:00,11:50,3,in-person
+Spring 2026,AMIND 110,American Indian Heritage,6303,Lecture,Margaret Field,-----,TBD,TBD,3,online
+Spring 2026,AMIND 110,American Indian Heritage,11438,Lecture,Kenneth Dyer-Redner,-----,TBD,TBD,3,online
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,6305,Lecture,Kenneth Dyer-Redner,-----,TBD,TBD,3,online
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,6307,Lecture,Ethan Banegas,-c-c-,11:00,12:15,3,in-person
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,6308,Lecture,Ethan Banegas,-c-c-,09:30,10:45,3,in-person
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,6309,Lecture,Diana Ortiz,-c-c-,TBD,TBD,3,online
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,6310,Lecture,Oscar Munoz,-c---,16:00,18:40,3,in-person
+Spring 2026,AMIND 141,U.S. History from an American Indian Perspective Since 1870,7987,Lecture,Ethan Banegas,-c-c-,08:00,09:15,3,in-person
+Spring 2026,ANTH 101,Human Biocultural Origins,4170,Lecture,Oliver Paine,-c-c-,09:30,10:45,3,in-person
+Spring 2026,ANTH 102,Introduction to Socio-Cultural Anthropology,4178,Lecture,Savanna Schuermann,-c-c-,08:00,09:15,3,in-person
+Spring 2026,ART 100,Drawing I,4376,Activity,Martin Luera,-c-c-,12:30,15:10,3,in-person
+Spring 2026,ART 100,Drawing I,4378,Activity,TBA,c-c--,12:00,14:40,3,in-person
+Spring 2026,ART 100,Drawing I,4380,Activity,Sepideh Shamloufard,c-c--,12:00,14:40,3,in-person
+Spring 2026,BIOL 211,Fundamentals of Microbiology,6226,Lecture,Sedelia Mercado,c-c--,17:00,17:50,3,in-person
+Spring 2026,BIOL 211,Fundamentals of Microbiology,10691,Lecture,Guadalupe Villegas,-c-c-,17:00,17:50,3,in-person
+Spring 2026,BIOL 203,Principles of Cell and Molecular Biology,6224,Lecture,Ralph Feuer,-c-c-,12:30,13:45,3,in-person
+Spring 2026,BIOL 203,Principles of Cell and Molecular Biology,8910,Lecture,Matthew Ellis,c-c-c,09:00,09:50,3,in-person
+Spring 2026,MUSIC 108,Introduction to Music Studies,11572,Lecture,Scott Lipscomb,-c-c-,09:30,10:45,3,in-person
+Spring 2026,MUSIC 308,Music History I: Middle Ages through the Enlightenment,8633,Lecture,Eric Smigel,-c-c-,09:30,10:45,3,in-person
+Spring 2026,CHEM 200,General Chemistry,6429,Lecture,Jing Gu,c-c-c,11:00,11:50,3,in-person
+Spring 2026,CHEM 200,General Chemistry,6430,Discussion,Megan Bowles,--c--,08:00,08:50,0,in-person
+Spring 2026,CHEM 200L,General Chemistry,6437,Lab,TBA,c----,08:00,10:40,1,in-person
+Spring 2026,COMM 103,Oral Communication,1129,Lecture,Michael Rapp,c----,10:00,10:50,3,in-person
+Spring 2026,COMM 103,Oral Communication,1150,Lecture,Michael Rapp,--c--,10:00,10:50,3,in-person
+Spring 2026,COMM 103,Oral Communication,1171,Lecture,Michael Rapp,c----,14:00,14:50,3,in-person
+Spring 2026,PSY 101,Introductory Psychology,2864,Lecture,Mark Laumakis,-c-c-,08:00,09:15,3,in-person
+Spring 2026,PSY 101,Introductory Psychology,11021,Lecture,Mark Laumakis,c-c--,15:30,16:45,3,in-person
+Spring 2026,PSY 101,Introductory Psychology,3859,Lecture,Shawna Saponjic,-c-c-,09:30,10:45,3,in-person
+Spring 2026,PSY 211,Introduction to Cognitive Psychology,3862,Lecture,Emily Kappenman,-c-c-,15:30,16:45,3,in-person
+Spring 2026,CJ 300,"Crime, Law, and Justice",4127,Lecture,Jeffrey Mcillwain,-c-c-,14:00,15:15,3,online
+Spring 2026,CJ 300,"Crime, Law, and Justice",9384,Lecture,Jeffrey Mcillwain,-c-c-,11:00,12:15,3,in-person
+Spring 2026,CJ 300,"Crime, Law, and Justice",4128,Lecture,Sylvia Valenzuela,c-c-c,12:00,12:50,3,in-person
+Spring 2026,DANCE 181,Introduction to Dance,2846,Discussion,Jessica Friedman,-c-c-,11:00,12:15,3,in-person
+Spring 2026,DANCE 181,Introduction to Dance,11474,Discussion,Anna Massey,-c-c-,11:00,12:15,3,in-person
+Spring 2026,CHIN 201,Fusion Flow: Contemporary and Hip Hop,3320,Discussion,TBA,c-c-c,09:00,10:50,5,in-person
+Spring 2026,SPAN 201,Intermediate Spanish I,5145,Discussion,TBA,cccc-,08:00,08:50,4,in-person
+Spring 2026,ECON 455,Environmental Economics,9466,Discussion,Christiana Hilmer,-c-c-,09:30,10:45,3,in-person
+Spring 2026,ECON 311,History of Economic Thought,9550,Discussion,Iddoosaa Banae,-c-c-,12:30,13:45,3,in-person
+Spring 2026,ECON 201,Statistical Methods,3629,Discussion,Jacob Penglase,c-c--,12:00,12:50,3,in-person
+Spring 2026,ECON 201,Statistical Methods,3630,Discussion,Jacob Penglase,c-c--,13:00,13:50,3,in-person
+Spring 2026,RWS 200,Rhetoric of Written Arguments in Context,3062,Discussion,Joshua Hall,c-c-c,09:00,09:50,3,in-person
+Spring 2026,RWS 200,Rhetoric of Written Arguments in Context,3066,Discussion,Gretchen Barksdale,c-c-c,09:00,09:50,3,in-person
+Spring 2026,RWS 200,Rhetoric of Written Arguments in Context,3096,Discussion,Hasan Autman,c-c-c,12:00,12:50,3,in-person
+Spring 2026,RWS 305W,Writing in Various Settings,3209,Discussion,Jacob Hubbard,c----,14:00,15:15,3,in-person
+Spring 2026,RWS 305W,Writing in Various Settings,3312,Discussion,Jacob Hubbard,--c--,14:00,15:15,3,in-person
+Spring 2026,RWS 305W,Writing in Various Settings,3316,Discussion,Candice Simmons,c----,16:00,18:40,3,in-person
+Spring 2026,HIST 109,American History to Reconstruction,3026,Lecture,Schorsch Kaffenberger,c-c--,09:00,09:50,3,in-person
+Spring 2026,HIST 109,American History to Reconstruction,3027,Lecture,Edward Blum,c-c--,12:00,12:50,3,in-person
