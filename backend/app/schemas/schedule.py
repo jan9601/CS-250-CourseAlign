@@ -9,7 +9,6 @@ class ScheduleBuildRequest(BaseModel):
     classes: list[str] = Field(..., min_length=1, description="Course IDs, e.g. ['CS250', 'MATH150']")
     earliestStart: Optional[str] = Field(None, description="HH:MM — exclude sections starting before this")
     latestEnd: Optional[str] = Field(None, description="HH:MM — exclude sections ending after this")
-    instructionMode: Optional[str] = Field(None, description="'in-person' or 'online'")
 
     @field_validator("earliestStart", "latestEnd")
     @classmethod
