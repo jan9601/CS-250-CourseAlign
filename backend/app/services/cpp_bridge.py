@@ -1,6 +1,11 @@
+import os
 import re
 from datetime import datetime
 import subprocess
+
+_CPP_BACKEND = os.path.normpath(
+    os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "cpp_backend")
+)
 
 
 def run_cpp_scheduler(classes, earliest_start=None, latest_end=None):
@@ -35,7 +40,7 @@ def run_cpp_scheduler(classes, earliest_start=None, latest_end=None):
         input=user_input,
         text=True,
         capture_output=True,
-        cwd="../cpp_backend",  # change working directory
+        cwd=_CPP_BACKEND,
     )
 
     if result.returncode != 0:
