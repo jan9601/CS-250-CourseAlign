@@ -1,6 +1,11 @@
+
 from fastapi import APIRouter, HTTPException
 
-from ..schemas import ScheduleBuildRequest, ScheduleOut
+from ..schemas import (
+    ScheduleBuildRequest,
+    ScheduleOut,
+)
+
 from ..services.cpp_bridge import run_cpp_scheduler, parse_cpp_output
 
 router = APIRouter(prefix="/generate-schedule", tags=["schedule"])
@@ -17,10 +22,12 @@ def build_schedule(req: ScheduleBuildRequest):
 
         schedules = parse_cpp_output(output)
 
+        # Contract rule: no schedules → return []
         if not schedules:
             return []
 
         return schedules
 
     except Exception as e:
+        # Contract rule: invalid input → standard error
         raise HTTPException(status_code=400, detail=str(e))
