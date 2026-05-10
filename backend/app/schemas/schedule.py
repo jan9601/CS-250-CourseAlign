@@ -11,6 +11,7 @@ class ScheduleBuildRequest(BaseModel):
 class SectionOut(BaseModel):
     course: str        # courseId format, e.g. "CS250"
     section: str       # section ID string, e.g. "01"
+    units: int
     days: list[str]    # e.g. ["M", "W", "F"]
     startTime: str     # "HH:MM"
     endTime: str       # "HH:MM"

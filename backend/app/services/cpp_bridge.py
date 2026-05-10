@@ -1,6 +1,7 @@
 import re
 from datetime import datetime
 import subprocess
+from .section_service import filter_sections
 
 
 def run_cpp_scheduler(classes, earliest_start=None, latest_end=None):
@@ -95,9 +96,11 @@ def parse_cpp_output(output: str):
 
             start_raw, end_raw = [t.strip() for t in time_raw.split("-", 1)]
 
+            course_code = course_raw.replace(" ", "")
             current_sections.append({
                 "course": course_raw.replace(" ", ""),
                 "section": section_id_str,
+                "units": get_units_for_section(course_code, section_id_str),
                 "days": days_raw.split(),
                 "startTime": to_24_hour(start_raw),
                 "endTime": to_24_hour(end_raw),
@@ -111,3 +114,12 @@ def parse_cpp_output(output: str):
         })
 
     return schedules
+
+def get_units_for_section(course_code: str, section_id: str) -> int:
+    matches = filter_sections(course_id=course_code)
+
+    for section in matches:
+        if str(section.section_id) == str(section_id):
+            return section.units
+
+    return 0
