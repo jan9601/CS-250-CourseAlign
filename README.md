@@ -43,3 +43,8 @@ CourseAlign is a C++ program that generates possible class schedules based on av
 - Christian Paper
 - Zack Waterman
 - Valeriia Stepanova
+
+- Greta Guenther
+- Ryan Chan
+- Junmin An
+- Matheus Zucchi
